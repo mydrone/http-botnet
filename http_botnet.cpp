@@ -1,22 +1,3 @@
-/*Some libcurl is ripped from:
-https://curl.haxx.se/libcurl/c/https.html
-LibCurl install instructions:
-1) install build-essential:
-apt-get install build-essential
-2) Go to /usr/local/src folder:
-cd /usr/local/src
-Download latest Curl package from here using:
-wget http://curl.haxx.se/download/curl-7.48.0.tar.gz
-3) Unzip:
-tar -xvzf curl-7.48.0.tar.gz
-rm *.gz
-cd curl-7.48.0
-./configure
-sudo make
-sudo make install
-(ripped from http://unix.stackexchange.com/questions/274286/how-to-install-curl-and-libcurl-in-kali-linux)
-Compiling Instructions:
-g++ -std=c++11 -pthread -O2 filename.cpp -lcurl*/
 #include <sys/socket.h>
 #include <netdb.h>
 #include <sys/utsname.h>
